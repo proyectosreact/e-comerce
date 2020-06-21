@@ -6,6 +6,7 @@ import Categoria from './views/Categoria/index'
 import Products from './views/Products/index'
 import SignIn from './views/SignIn/index'
 import SignUp from './views/SignUp/index'
+import Vistaprincipal from './views/Vistaprincipal';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
          <Route path="/signIn" component={SignIn} />
          <Route path="/categoria/:id" component={Categoria} exact></Route>
          <Route path="/products" component={Products} exact></Route>
+         <Route path="/Vistaprincipal" component={Vistaprincipal} exact></Route>
        </Switch>
      </Router>
 

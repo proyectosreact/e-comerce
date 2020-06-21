@@ -2,7 +2,7 @@ import React from 'react';
 
 const Categoria = () => {
         return(
-            <h1>ads</h1>
+            <h1>SOLO FEO</h1>
         )
 
 }
